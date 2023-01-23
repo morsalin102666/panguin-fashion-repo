@@ -9,18 +9,55 @@
     <title>Penguin Fashion</title>
     <!-- tailwind link -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- google font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/eab5e6ce95.js" crossorigin="anonymous"></script>
     <!-- css file link -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- ============================ HEADER SECTION ========================== -->
-    <header>
+    <header class="bg-[#FFFBF0]">
+        <!-- nav section -->
 
+
+        <section class="container mx-auto py-11">
+            <nav>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <a href="#"><img src="./images/logo.png" class="w-[300px] h-[50px]" alt=""></a>
+                    </div>
+                    <div>
+                        <ul class="flex items-center">
+                            <li class="mx-4"><a class="text-xl font-semibold" href="#">Home</a></li>
+                            <li class="mx-4"><a class="text-xl font-semibold" href="#">Product</a></li>
+                            <li class="mx-4"><a class="text-xl font-semibold" href="#">About us</a></li>
+                            <li class="mx-4"><a class="text-xl font-semibold" href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+
+        <!-- Be the Penguins of Winter -->
+        <section class="container mx-auto py-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 p-5">
+                <div class="flex ju justify-center flex-col">
+                    <h1 class="text-[40px] md:text-[80px] leading-[45px] md:leading-[96px] font-bold uppercase"><span class="text-[#FABE4C]">Be the
+                            Penguins</span><br>of Winter</h1>
+                    <p class="leading-7 text-[#3E3E3E] mb-2">Lorem Ipsum is simply dummy text of the printing<br>and
+                        typesetting industry.</p>
+                    <button class="w-[170px] h-[60px] bg-[#A4BC46] rounded-md">
+                        <span><i class="fa-solid fa-cart-shopping text-white"></i></span>
+                        <span class="text-white font-semibold">BUY NOW</span>
+                    </button>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img src="images/model.png" alt="Model Apa">
+                </div>
+            </div>
+        </section>
     </header>
     <!-- ============================ MAIN SECTION ========================== -->
     <main>
